@@ -5,6 +5,28 @@
 	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-	<p>Lorem ips...</p>
+	<div class="wrapper">
+		<div class="params">
+			<div class="param__group">
+				<label class="param__label" for="param-power">Мощность: </label>
+				<input type="number" name="param-power" id="param-power" min="100" max="2000" step="50">
+			</div>
+			<div class="param__group">
+				<label class="param__label" for="param-amount">Кол-во воды: </label>
+				<input type="number" name="param-amount" id="param-amount" min="0" max="200">
+			</div>
+			<div class="param__group">
+				<button class="param__button param-btn-start" type="button">Нагреть</button>
+			</div>
+		</div>
+
+        <div class="scene">
+            <div class="teapot">
+                <img src="img/teapot.svg" alt="Чайник">
+            </div>
+        </div>
+	</div>
+
+	<script src="js/scripts.js"></script>
 </body>
 </html>

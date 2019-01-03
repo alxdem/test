@@ -1,0 +1,24 @@
+.wrapper{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.param__label{
+    cursor: pointer;
+}
+
+.param__button{
+    cursor: pointer;
+}
+
+.teapot{
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+}
+
+.teapot img{
+    width: 100%;
+    height: auto;
+}
